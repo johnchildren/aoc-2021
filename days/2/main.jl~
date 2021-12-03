@@ -1,0 +1,7 @@
+@enum Direction forward down up
+
+immutable Command
+  direction::Direction
+  distance::Int64
+end
+
